@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Great+Vibes&display=swap');
+h1 {
+    font-family: 'Corinthia', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 50px;
+}
+.landing-page {
+    /*----Photo by KoolShooters from Pexels----
+    background-image: url('../images/hero.jpg');*/
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+/*---colors---*/
+body {
+    background-image:linear-gradient(black, rgb(0, 68, 68),rgb(0, 68, 68), rgb(165, 108, 42), rgb(100, 13, 6),rgb(100, 13, 6), black);
+}
+h1 {
+    color: rgb(0, 68, 68);
+}
