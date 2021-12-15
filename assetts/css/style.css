@@ -76,7 +76,30 @@ h1 a:hover {
     position: absolute;
     margin-top: 493px;
 }
+/*----footer----*/
+.footer {
+    position:sticky;
+    position: -webkit-sticky;
+    bottom: 0;
+}
+.social-networks {
+    text-align: center;
+    text-decoration: none;
+}
+.social-networks li {
+    display: inline;
+    font-size: 150%;
+    margin: 1%;
+    padding: 3%;
+}
+.social-networks a:hover {
+    color: rgb(210, 132, 30)
+}
 /*---colors---*/
 h1 a {
     color: rgb(95, 165, 165);
 }
+.social-networks li a {
+    color: rgb(95, 165, 165);
+}
+
