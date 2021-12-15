@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Great+Vibes&display=swap');
 body {
-    background-image:linear-gradient(black, rgb(0, 68, 68),rgb(0, 68, 68), rgb(165, 87, 42), rgb(100, 44, 6),rgb(80, 36, 0), black);
+    background-image:linear-gradient(rgb(0, 68, 68),rgb(0, 68, 68),rgb(0, 68, 68), rgb(0, 68, 68), rgb(165, 87, 42), rgb(100, 44, 6),rgb(80, 36, 0), rgb(80, 36, 0), rgb(80, 36, 0), black);
     color: rgb(95, 165, 165);
     font-family: 'Great Vibes', sans-serif;
 }
@@ -8,40 +8,68 @@ a {
     text-decoration: none;
 }
 /*-----header-----*/
-nav li a{
+#menu li a{
     color: rgb(95, 165, 165);
 }
 #menu {
     text-align: center;
     font-size: 140%;
     list-style-type: none;
-    margin-top: 15px;
-    padding: 10px, 0;
+    margin: 0;
+    padding: 0;
     position: sticky;
 }
 #menu li {
     margin-right: 15px;
     display: inline;
 }
+#menu-container {
+    background-color: black;
+    margin 0;
+}
+#menu a:hover {
+    border-bottom: 1px solid;
+    color: rgb(210, 132, 30);
+}
+
 /*-----landing page-----*/
-.landing-page {
+#hero-image {
     /*----Photo by KoolShooters from Pexels----*/
     background-image: url('../images/hero.jpg');
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     height: 750px;
     background-repeat: no-repeat;
-    margin: 0;
+    animation-name: hero-motion;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+}
+#hero-outer {
+    height: 750px;
+    overflow: hidden;
+}
+@keyframes hero-motion {
+    from {
+transform: scale(1.1);
+    }
+    to {
+transform: scale(1);
+    }
 }
 
 h1 {
     font-family: 'Corinthia', sans-serif;
-    color: rgb(95, 165, 165);
-    font-size: 400%;
+    font-size: 450%;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(black, black, rgba(0,0,0,0));
+    margin-top: 0;
+}
+h1 a:hover {
+    color: rgb(210, 132, 30)
 }
 /*---colors---*/
-
+h1 a {
+    color: rgb(95, 165, 165);
+}
