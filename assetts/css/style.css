@@ -57,7 +57,7 @@ transform: scale(1);
     }
 }
 
-h1 {
+#hero-image h1 {
     font-family: 'Corinthia', sans-serif;
     font-size: 450%;
     text-align: center;
@@ -94,6 +94,16 @@ h1 a:hover {
 }
 .social-networks a:hover {
     color: rgb(210, 132, 30)
+}
+/*----promo video----*/
+.promo-vid h1 {
+    text-align: center;
+    font-size: 300%;
+}
+.promo-vid iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 /*---colors---*/
 h1 a {
