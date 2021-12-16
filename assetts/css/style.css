@@ -4,8 +4,20 @@ body {
     color: rgb(95, 165, 165);
     font-family: 'Great Vibes', sans-serif;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
 a {
     text-decoration: none;
+}
+.page-content {
+    min-height: 100%;
+    margin-bottom: -120px;
+}
+.page-content::after {
+    content: "";
+    display: block;
 }
 /*-----header-----*/
 #menu li a{
@@ -77,15 +89,16 @@ transform: scale(1);
     margin-top: 493px;
 }
 /*----footer----*/
-.footer {
-    /*used this site https://css-tricks.com/a-clever-sticky-footer-technique/*/
-    position: sticky;
-  top: 100vh;
-    bottom: 0;
+footer, .page-content::after {
+    /*used this site https://www.youtube.com/watch?v=RApARNfPwsA*/
+    height: 100px;
 }
 .social-networks {
     text-align: center;
     text-decoration: none;
+    padding: 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .social-networks li {
     display: inline;
@@ -116,8 +129,32 @@ span {
     position: relative;
     float: right;
     text-align: center;
+    height: 150px;
 }
-
+button {
+    margin-top: 35px;
+}
+h2 {
+    font-size: 200%;
+    font-weight: 50%;
+}
+.venue {
+    text-align: left;
+    margin-left: 7%;
+    width: 26%;
+}
+.venue h2 {
+    margin-bottom: 0;
+}
+.venue p {
+    margin-top: 0;
+    font-size: 150%;
+}
+/*----newsletter signup----*/
+form {
+    font-size: 150%;
+    text-align: center;
+}
 /*---colors---*/
 h1 a {
     color: rgb(95, 165, 165);
