@@ -88,6 +88,9 @@ transform: scale(1);
     position: absolute;
     margin-top: 493px;
 }
+#about-text {
+    
+}
 /*----footer----*/
 footer, .page-content::after {
     /*used this site https://www.youtube.com/watch?v=RApARNfPwsA*/
@@ -177,9 +180,13 @@ h2 {
  .music h1 a:hover {
         color: rgb(210, 132, 30)
     }
-}
+    .albums h1 {
+        font-family: 'Corinthia', sans-serif;
+        font-size: 300%;
+        text-align: center;
+    }
 /*---colors---*/
-h1 a {
+#hero-image h1 a {
     color: rgb(95, 165, 165);
 }
 .music h1 a {
