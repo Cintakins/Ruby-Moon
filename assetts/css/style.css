@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 body {
     background-color: black;
     color: rgb(95, 165, 165);
-    font-family: 'Great Vibes', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 html, body {
     height: 100%;
@@ -30,6 +30,7 @@ a {
     margin: 0;
     padding: 0;
     position: sticky;
+    font-weight: 100;
 }
 #menu li {
     margin-right: 15px;
@@ -70,13 +71,14 @@ transform: scale(1);
 }
 
 #hero-image h1 {
-    font-family: 'Corinthia', sans-serif;
+    font-family: 'Corinthia', cursive;
     font-size: 450%;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     background-image: linear-gradient(black, black, rgba(0,0,0,0));
     margin-top: 0;
+    margin-bottom: 0;
 }
 #hero-image h1 a:hover {
     color: rgb(210, 132, 30)
@@ -86,7 +88,7 @@ transform: scale(1);
     height: 50px;
     width: 100%;
     position: absolute;
-    margin-top: 493px;
+    margin-top: 590px;
 }
 
 /*----footer----*/
@@ -115,7 +117,7 @@ footer {
 }
 /*----promo video----*/
 .promo-vid h1 {
-    font-family: 'Corinthia', sans-serif;
+    font-family: 'Corinthia', cursive;
     text-align: center;
     font-size: 300%;
 }
@@ -145,7 +147,7 @@ button {
     margin-top: 35px;
 }
 h2 {
-    font-family: 'Corinthia', sans-serif;
+    font-family: 'Corinthia', cursive;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -168,7 +170,7 @@ h2 {
 }
 /*------music page------*/
 .music h1 {
-        font-family: 'Corinthia', sans-serif;
+        font-family: 'Corinthia', cursive;
         font-size: 450%;
         text-align: center;
         padding-top: 20px;
@@ -179,28 +181,39 @@ h2 {
         color: rgb(210, 132, 30)
     }
 .albums h1 {
-        font-family: 'Corinthia', sans-serif;
+        font-family: 'Corinthia', cursive;
         font-size: 300%;
         text-align: center;
     }
 /*-----about page------*/
+#about-title {
+    font-weight: 200;
+    text-align: center;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5), rgba(94, 45, 13, 0.9));
+    border-style: solid;
+    margin-bottom: 50px;
+    position: absolute;
+}
+/* #about-title h2 {
+    font-family: 'Roboto', sans-serif;
+} */
 .about-text {
-    font-family: 'Great Vibes', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     color: rgb(95, 165, 165);
-    /* background-color: rgba(0, 0, 0,0.5); */
     width: 400px;
     height: 300px;
     padding: 30px;
+    margin-top: 60px;
     margin-left: 125px;
     margin-right: 125px;
     font-size: 1.7rem;
     border-radius: 50px;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5), rgba(94, 45, 13, 0.9)); 
+    background-image: radial-gradient(rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0.808), rgba(94, 45, 13, 0.9)); 
     border-style: solid;
+    position: absolute;
 }
-.about-text h2, h3, p{
-    font-family: 'Great Vibes', sans-serif;
-    font-weight: lighter;
+.about-text h3, p{
+    font-weight: 300;
     text-align: center;
 }
 .about-boxes {
