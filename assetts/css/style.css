@@ -90,12 +90,14 @@ transform: scale(1);
 }
 
 /*----footer----*/
-footer, .page-content::after {
-    /*used this site https://www.youtube.com/watch?v=RApARNfPwsA*/
-    height: 100px;
-}
-footer {
-    position: sticky;
+     footer, .page-content::after {
+    /*used this site https://www.youtube.com/watch?v=RApARNfPwsA
+    height: 100px;*/
+} 
+footer ul{
+    height: 50px;
+    padding-top: 25px; 
+    background-image:linear-gradient(to right, rgba(94, 45, 13, 0.9),black, rgba(94, 45, 13, 0.9))
 }
 .social-networks {
     text-align: center;
@@ -175,6 +177,7 @@ h2 {
 .signup {
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 50px;
 }
 /*------music page------*/
 .music h1 {
