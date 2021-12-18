@@ -19,6 +19,16 @@ a {
     content: "";
     display: block;
 }
+/*---colors---*/
+#hero-image h1 a {
+    color: rgb(95, 165, 165);
+}
+.music h1 a {
+    color: rgb(95, 165, 165);
+}
+.social-networks li a {
+    color: rgb(95, 165, 165);
+}
 /*-----header-----*/
 #menu li a{
     color: rgb(95, 165, 165);
@@ -130,6 +140,7 @@ margin-top: 50px;
     font-family: 'Corinthia', cursive;
     text-align: center;
     font-size: 3.5rem;
+    margin: 85px 0px 20px;
 }
 .tourdate-item {
     float: right;
@@ -141,6 +152,12 @@ margin-top: 50px;
 }
 button {
     margin-top: 35px;
+    border-radius: 20px;
+    padding: 10px 25px;
+    background-color: rgb(95, 165, 165);
+    }
+button:hover {
+        background-color: rgb(210, 132, 30);
 }
 h2 {
     font-size: 2rem;
@@ -168,6 +185,9 @@ h2 {
     font-size: 2rem;
     color: rgb(95, 165, 165);
 }
+#backup a:hover {
+    color: rgb(210, 132, 30);
+}
 /*----newsletter signup----*/
 .signup {
     font-size: 1.5rem;
@@ -179,6 +199,27 @@ h2 {
 }
 .signup h2 {
     margin-bottom: 25px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.text-input {
+    background: transparent;
+    color: rgb(210, 132, 30);
+    border-width: 3px;
+    width: 200px;
+    height: 27px;
+    font-size: 18px;
+}
+.text-input:hover {
+    border-color: rgb(210, 132, 30);
+}
+.signup-button {
+    border-radius: 20px;
+    padding: 10px 25px;
+    background-color: rgb(95, 165, 165);
+}
+.signup-button:hover {
+    background-color: rgb(210, 132, 30);
 }
 /*------music page------*/
 .music h1 {
@@ -200,23 +241,23 @@ h2 {
 .albums img {
     height: 400px;
     width: 400px;
-    margin-bottom: 50px;
+     margin-bottom: 20px; 
 }
 
 #past-work {
     display: block;
-    height: 600px;
+    height: 650px;
 } 
 .shop {
     margin: 0;
     text-align: center; 
     width: 50%; 
-    height: 500px;
+    height: 400px;
     float: right;
 }
-/* .shop img {
-    text-align: center;
-}*/
+.shop div{
+    width: 100%;
+}
 .shop button {
     display: inline-block;
 } 
@@ -258,14 +299,5 @@ h2 {
     position: absolute;
     right: 0;
 }
-/*---colors---*/
-#hero-image h1 a {
-    color: rgb(95, 165, 165);
-}
-.music h1 a {
-    color: rgb(95, 165, 165);
-}
-.social-networks li a {
-    color: rgb(95, 165, 165);
-}
+
 
