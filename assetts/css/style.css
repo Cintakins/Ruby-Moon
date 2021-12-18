@@ -100,7 +100,6 @@ transform: scale(1);
     text-decoration: none;
     margin: 0; 
     padding: 25px 0;
-    /* background-image:linear-gradient(to right, rgba(94, 45, 13, 0.9),black, rgba(94, 45, 13, 0.9)) */
 }
 .social-networks li {
     display: inline;
@@ -203,18 +202,24 @@ h2 {
     width: 400px;
     margin-bottom: 50px;
 }
-#lost {
-    position: absolute;
-    margin-left: 13%;
+
+#past-work {
+    display: block;
+    height: 600px;
+} 
+.shop {
+    margin: 0;
+    text-align: center; 
+    width: 50%; 
+    height: 500px;
+    float: right;
 }
-#dream {
-    position: absolute;
-    right: 0;
-    margin-right: 13%; 
-}
-.albums div {
-    height: 480px;
-}
+/* .shop img {
+    text-align: center;
+}*/
+.shop button {
+    display: inline-block;
+} 
 /*-----about page------*/
 #about-title {
     font-weight: 200;
