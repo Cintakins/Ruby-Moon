@@ -90,21 +90,18 @@ transform: scale(1);
 }
 
 /*----footer----*/
-     footer, .page-content::after {
+    /* footer, .page-content::after {
     /*used this site https://www.youtube.com/watch?v=RApARNfPwsA
-    height: 100px;*/
-} 
-footer ul{
-    height: 50px;
-    padding-top: 25px; 
-    background-image:linear-gradient(to right, rgba(94, 45, 13, 0.9),black, rgba(94, 45, 13, 0.9))
-}
+    height: 100px;
+    text-align: center;
+}*/
 .social-networks {
     text-align: center;
     text-decoration: none;
-    padding: 0;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: 0; 
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-image:linear-gradient(to right, rgba(94, 45, 13, 0.9),black, rgba(94, 45, 13, 0.9))
 }
 .social-networks li {
     display: inline;
@@ -177,7 +174,7 @@ h2 {
 .signup {
     font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 50px;
+    background-color: rgba(94, 45, 13, 0.342);
 }
 /*------music page------*/
 .music h1 {
