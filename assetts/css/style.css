@@ -99,9 +99,8 @@ transform: scale(1);
     text-align: center;
     text-decoration: none;
     margin: 0; 
-    padding-bottom: 25px;
-    padding-top: 25px;
-    background-image:linear-gradient(to right, rgba(94, 45, 13, 0.9),black, rgba(94, 45, 13, 0.9))
+    padding: 25px 0;
+    /* background-image:linear-gradient(to right, rgba(94, 45, 13, 0.9),black, rgba(94, 45, 13, 0.9)) */
 }
 .social-networks li {
     display: inline;
@@ -174,7 +173,7 @@ h2 {
 .signup {
     font-size: 1.5rem;
     text-align: center;
-    background-color: rgba(94, 45, 13, 0.342);
+    background-image: linear-gradient(to right, rgb(210, 132, 30), rgba(184, 103, 28, 0.541), rgba(94, 45, 13, 0.342), rgba(184, 103, 28, 0.541), rgb(210, 132, 30));
 }
 /*------music page------*/
 .music h1 {
@@ -193,6 +192,20 @@ h2 {
         font-size: 300%;
         text-align: center;
     }
+.albums img {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+#lost {
+    position: absolute;
+    margin-left: 13%;
+}
+#dream {
+    position: absolute;
+    right: 0;
+    margin-right: 13%; 
+}
 /*-----about page------*/
 #about-title {
     font-weight: 200;
