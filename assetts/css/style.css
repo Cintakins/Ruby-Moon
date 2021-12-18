@@ -206,6 +206,9 @@ h2 {
     right: 0;
     margin-right: 13%; 
 }
+.albums div {
+    height: 480px;
+}
 /*-----about page------*/
 #about-title {
     font-weight: 200;
