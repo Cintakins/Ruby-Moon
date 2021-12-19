@@ -147,8 +147,11 @@ margin-top: 50px;
     width: 33%;
     position: relative;
     text-align: center;
-    height: 150px;
-    
+    height: 150px;   
+}
+.button-div {
+    height: 105px;
+    padding-top: 35px;
 }
 .button {
     margin-top: 35px;
