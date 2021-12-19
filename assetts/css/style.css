@@ -147,14 +147,19 @@ margin-top: 50px;
     height: 150px;
     
 }
-button {
+.button {
     margin-top: 35px;
     border-radius: 20px;
     padding: 10px 25px;
     background-color: rgb(95, 165, 165);
-    }
-button:hover {
+    border-style: outset;
+    color: rgb(94, 45, 13);
+}
+.button:hover {
         background-color: rgb(210, 132, 30);
+}
+.button:active {
+    border-style: inset;
 }
 h2 {
     font-size: 2rem;
