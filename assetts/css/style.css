@@ -65,6 +65,7 @@ a {
     animation-name: hero-motion;
     animation-duration: 4s;
     animation-fill-mode: backwards;
+    max-width: 100%;
 }
 #hero-outer {
     height: 750px;
@@ -302,6 +303,14 @@ h2 {
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     .hero-image {
         background-image: url('../images/hero-sm.jpeg');
+        max-width: 100%;
+        height: 400px;
+    }
+    #hero-outer {
+        height: 400px;
+    }
+    #fade {
+        margin-top: 225px;
     }
 }
 
