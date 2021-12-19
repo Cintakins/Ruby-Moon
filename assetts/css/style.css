@@ -321,6 +321,11 @@ h2 {
         width: 300px;
         height: 200px;
     }
+    /*music*/
+    .shop img {
+        height: 290px;
+        width: 290px;
+    }
 }
 @media only screen and (min-width: 480px) and (max-width: 850px) {
     .promo-vid iframe {
@@ -338,6 +343,11 @@ h2 {
     #fade {
         margin-top: 325px;
     }
+    #backup {
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 850px) {
     .tourdate-item {
         width: 100%;
         float: none;
@@ -360,9 +370,31 @@ h2 {
         height: 75px;
         padding-top: 0;
     }
-    #backup {
+    /*---albums----*/
+    .music h1 {
+        margin-bottom: 0;
+    }
+    .promo-vid h1 {
+        margin-top: 0;
+    }
+    .shop {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .shop div {
         height: 50px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .shop img {
+        display: block;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #past-work {
+        height: 1050px;
     }
 }
-
 
