@@ -1,5 +1,5 @@
 # Ruby Moon Website
-[Click to view the website here](https://github.com/Cintakins/Ruby-Moon.git)
+[Click to view the website here](https://cintakins.github.io/Ruby-Moon/)
 This website is designed to showcase the works of talented musician Ruby Moon, giving fans access to her music, tour dates, gallery and newsletter. The website will be designed to work on mobile phone, tablet and desktop computer screens.
 ## User Experience (UX)
 - ### First Time Visitor
