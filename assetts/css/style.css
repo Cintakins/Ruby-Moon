@@ -128,6 +128,8 @@ transform: scale(1);
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 750px;
+    height: 450px;
 }
 /*----Tour Dates----*/
 .tour-dates {
@@ -304,13 +306,17 @@ h2 {
     .hero-image {
         background-image: url('../images/hero-sm.jpeg');
         max-width: 100%;
-        height: 400px;
+        height: 300px;
     }
     #hero-outer {
-        height: 400px;
+        height: 300px;
     }
     #fade {
-        margin-top: 225px;
+        margin-top: 125px;
+    }
+    .promo-vid iframe {
+        width: 350px;
+        height: 200px;
     }
 }
 
