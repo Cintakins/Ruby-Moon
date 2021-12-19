@@ -244,6 +244,10 @@ h2 {
         padding-top: 20px;
         padding-bottom: 40px;
         margin-top: 0;
+        animation-name: hero-motion;
+        animation-duration: 4s;
+        animation-fill-mode: backwards;
+        max-width: 100%;
     }
  .music h1 a:hover {
         color: rgb(210, 132, 30)
@@ -408,9 +412,6 @@ h2 {
         max-width: 100%;
         height: 300px;
     }
-    /* #hero-outer {
-        height: 300px;
-    } */
     #fade {
         margin-top: 125px;
     }
@@ -437,8 +438,11 @@ h2 {
     .about-text {
         margin-top: 0;
     }
-    /* #about-hero-outer {
-        height: 1200px;
-    } */
+    .about-hero {
+        background-image: none;
+    }
+    #about-hero-outer {
+        height: 935px;
+    } 
 }
 
