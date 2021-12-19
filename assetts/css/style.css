@@ -49,6 +49,13 @@ a {
     margin-right: 10px; 
     display: inline;
 }
+#menu li::after {
+    content: "|";
+    color: rgb(95, 165, 165);
+}
+#menu li:last-child:after {
+    display: none;
+}
 #menu a:hover {
     border-bottom: 1px solid;
     color: rgb(210, 132, 30);
