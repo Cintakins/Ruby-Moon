@@ -76,3 +76,8 @@ The main font has been chosen for ease of reading - Roboto (fallback font of san
 - The website was tested on a macbook using chrome and safari. There was a problem that Safari was not directing linking to the tour dates, but it was on chrome. The issue was an unneeded "/" before the file in the href attribute. The website was also tested on a samsung galaxy phone, and iphones and worked well, with the reported functional problems of the link not working and text overflowing it's container. Another problem reported was that the menu links did not look like menu links and so the user thought there was only one page to view. The user said that it was more obvious to him after I added vertical lines between the menu list items.
 
 ## Deployment
+- In GitHub find the Ruby-Moon Repository and click on it.
+- At the right towards the top of the page, click on settings.
+- Scroll down the left hand menu to find the pages link.
+- Select pages and select "main" in "branch" underneath 'Source' heading.
+- The page is now published.
