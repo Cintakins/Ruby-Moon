@@ -130,7 +130,7 @@ transform: scale(1);
     padding: 3%;
 }
 .social-networks a:hover {
-    color: rgb(210, 132, 30)
+    color: rgb(210, 132, 30);
 }
 /*----promo video----*/
 #promovid-heading {
