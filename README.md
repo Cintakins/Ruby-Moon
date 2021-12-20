@@ -74,6 +74,8 @@ The main font has been chosen for ease of reading - Roboto (fallback font of san
 ## Testing
 - [Link to W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcintakins.github.io%2FRuby-Moon%2F)
 - [Link to W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcintakins.github.io%2FRuby-Moon%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- Chrome tools lighthouse was used and results are shown here.
+![photo of lighthouse results](docs/lighthouse.png)
 - The website was tested on a macbook using chrome and safari. There was a problem that Safari was not directing linking to the tour dates, but it was on chrome. The issue was an unneeded "/" before the file in the href attribute. The website was also tested on a samsung galaxy phone, and iphones and worked well, with the reported functional problems of the link not working and text overflowing it's container. Another problem reported was that the menu links did not look like menu links and so the user thought there was only one page to view. The user said that it was more obvious to him after I added vertical lines between the menu list items.
 
 ## Deployment
