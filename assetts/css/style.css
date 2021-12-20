@@ -444,6 +444,7 @@ h2 {
     .about-text, .reviews {
         height: 300px;
         width: 250px;
+        font-size: 1.5rem;
     }
     .about-text {
         margin-top: 0;
