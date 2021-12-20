@@ -69,6 +69,7 @@ The main font has been chosen for ease of reading - Roboto (fallback font of san
 - (https://balsamiq.com/) was used for wireframes.
 - (https://git-scm.com/) Was used for version control.
 - (https://github.com/) stored the repository.
+- (https://learn.codeinstitute.net/dashboard) and (https://www.w3schools.com/) was used for coding help and advise.
 
 ## Testing
 - [Link to W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcintakins.github.io%2FRuby-Moon%2F)
